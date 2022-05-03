@@ -1,1 +1,17 @@
+<Summary>Adding invalid email to profile</Summary>
+<Pre_conditions>Open the website www.dybok.com.ua, be authorized.</Pre_conditions>
+<Steps>
+1) Go to the website www.dybok.com.ua
+2) In the upper right corner, click on the profile name.
+3) In the “Email” field, enter an invalid email “&*(&*(@gmail.com”
+4) Click the "Сохранить" button
+</Steps>
+
+<Post_condition> Enter a valid email in the “Email” field.</Post_condition>
+<Type>Logical</Type>
+<Severity>Маjor</Severity>
+<Priority>Medium</Priority>
+
+<Actual result>Email successfully saved.</Actual result>
+<Expected result>The message “Email cannot contain special characters” should appear under the “Email” field.</Expected result>
 
