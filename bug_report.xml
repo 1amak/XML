@@ -12,6 +12,6 @@
 <Severity>Маjor</Severity>
 <Priority>Medium</Priority>
 
-<Actual result>Email successfully saved.</Actual result>
-<Expected result>The message “Email cannot contain special characters” should appear under the “Email” field.</Expected result>
+<Actual_result>Email successfully saved.</Actual_result>
+<Expected_result>The message “Email cannot contain special characters” should appear under the “Email” field.</Expected_result>
 
